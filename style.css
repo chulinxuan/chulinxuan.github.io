@@ -3,29 +3,41 @@ body {
     margin: 0;
     padding: 20px;
     background-color: #f0f0f0;
+    font-size: 20px; /* 全局字体增大 */
 }
 
 nav {
     background-color: #333;
-    padding: 10px;
+    padding: 15px; /* 增加内边距，让导航栏更高 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* 添加阴影 */
+    display: flex; /* 使用flex布局让导航项水平排列 */
+    justify-content: space-around; /* 导航项均匀分布 */
+    border-radius: 5px; /* 圆角效果 */
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    margin-right: 15px;
+    margin-right: 15px; /* 保持间距 */
+    font-size: 22px; /* 导航栏字体增大 */
+    padding: 10px 15px; /* 增加点击区域 */
+    transition: background-color 0.3s, color 0.3s; /* 平滑过渡效果 */
 }
 
 nav a:hover {
-    color: #ddd;
+    color: #fff; /* 悬停时变为纯白 */
+    background-color: #555; /* 悬停时背景变色 */
+    border-radius: 5px; /* 悬停时圆角 */
 }
 
 h1 {
     color: #333;
+    font-size: 36px; /* 标题字体增大 */
 }
 
 p {
-    font-size: 18px;
+    font-size: 20px; /* 段落字体增大（原来是18px） */
+    line-height: 1.6; /* 增加行距，提升阅读体验 */
 }
 img {
     width: 300px; /* 设置宽度 */
