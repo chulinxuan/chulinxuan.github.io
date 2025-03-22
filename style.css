@@ -27,3 +27,9 @@ h1 {
 p {
     font-size: 18px;
 }
+img {
+    width: 300px; /* 设置宽度 */
+    height: auto; /* 高度自动适应 */
+    border: 2px solid #333; /* 可选：加边框 */
+    margin: 10px 0; /* 上下间距 */
+}
