@@ -3,45 +3,49 @@ body {
     margin: 0;
     padding: 20px;
     background-color: #f0f0f0;
-    font-size: 20px; /* 全局字体增大 */
+    font-size: 20px;
+    text-align: center;
 }
 
 nav {
     background-color: #333;
-    padding: 15px; /* 增加内边距，让导航栏更高 */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* 添加阴影 */
-    display: flex; /* 使用flex布局让导航项水平排列 */
-    justify-content: space-around; /* 导航项均匀分布 */
-    border-radius: 5px; /* 圆角效果 */
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    margin-right: 15px; /* 保持间距 */
-    font-size: 22px; /* 导航栏字体增大 */
-    padding: 10px 15px; /* 增加点击区域 */
-    transition: background-color 0.3s, color 0.3s; /* 平滑过渡效果 */
+    margin-right: 15px;
+    font-size: 22px;
+    padding: 10px 15px;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 nav a:hover {
-    color: #fff; /* 悬停时变为纯白 */
-    background-color: #555; /* 悬停时背景变色 */
-    border-radius: 5px; /* 悬停时圆角 */
+    color: #fff;
+    background-color: #555;
+    border-radius: 5px;
 }
 
 h1 {
     color: #333;
-    font-size: 36px; /* 标题字体增大 */
+    font-size: 48px;
 }
 
 p {
-    font-size: 20px; /* 段落字体增大（原来是18px） */
-    line-height: 1.6; /* 增加行距，提升阅读体验 */
+    font-size: 20px;
+    line-height: 1.6;
 }
+
 img {
-    width: 300px; /* 设置宽度 */
-    height: auto; /* 高度自动适应 */
-    border: 2px solid #333; /* 可选：加边框 */
-    margin: 10px 0; /* 上下间距 */
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: auto;
+    border: 2px solid #333;
+    margin: 10px auto;
 }
