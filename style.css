@@ -9,7 +9,7 @@ body {
 
 nav {
     background-color: #333;
-    padding: 45px; /* 原15px增大3倍 */
+    padding: 25px; /* 缩小到25px，比原来15px大 */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     display: flex;
     justify-content: space-around;
@@ -20,8 +20,8 @@ nav a {
     color: white;
     text-decoration: none;
     margin-right: 15px;
-    font-size: 66px; /* 原22px增大3倍 */
-    padding: 30px 45px; /* 原10px 15px增大3倍 */
+    font-size: 36px; /* 缩小到36px，比原来22px大 */
+    padding: 15px 25px; /* 缩小到15px 25px，比原来10px 15px大 */
     transition: background-color 0.3s, color 0.3s;
 }
 
@@ -32,12 +32,12 @@ nav a:hover {
 }
 
 h1 {
-    color: purple; /* 标题改为紫色 */
-    font-size: 96px; /* 原48px增大2倍 */
+    color: purple;
+    font-size: 96px;
 }
 
 p {
-    font-size: 20px;
+    font-size: 24px; /* 正文字体加大，从20px到24px */
     line-height: 1.6;
 }
 
