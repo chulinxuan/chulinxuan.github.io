@@ -52,10 +52,10 @@ img {
 
 /* 新增：只加大非导航栏的超链接 */
 a:not(nav a) {
-    font-size: 28px; /* 除导航栏外的链接放大到28px */
+    font-size: 40px; /* 除导航栏外的链接放大到28px */
 }
 
 /* 可选：下载链接特定样式 */
 a[href$=".pdf"]:not(nav a) {
-    font-size: 32px; /* PDF下载链接更大，32px */
+    font-size: 40px; /* PDF下载链接更大，32px */
 }
